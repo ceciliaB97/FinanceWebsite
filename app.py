@@ -102,7 +102,7 @@ def buy():
                           user_id = session["user_id"])[0]["cash"]
 
         # Calculate total price based on number of shares and stock's current price
-        total_price = lookup(input_symbol)["price"] * int(input_shares);
+        total_price = lookup(input_symbol)["price"] * int(input_shares)
 
         # Check if user has enough cash based on stock's current price
         if total_price > user_balance:
