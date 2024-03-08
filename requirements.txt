@@ -2,7 +2,7 @@ cs50
 Flask
 Flask-Session
 requests
-Werkzeug==0.15.5
+Werkzeug==2.3.8
 
 certifi
 chardet
